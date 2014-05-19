@@ -2,11 +2,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.notepadex.MainActivity" >
-
+  <item
+        android:id="@+id/action_diner"
+        android:orderInCategory="100"
+        android:icon="@drawable/diner"
+        android:title="@string/action_diner"
+        app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never"/>
-
+        app:showAsAction="always"/>
+ 
+    
 </menu>
